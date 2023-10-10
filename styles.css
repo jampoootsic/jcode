@@ -1,0 +1,152 @@
+/* styles.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+}
+
+.cv {
+    background-image: url('https://images.unsplash.com/photo-1568952433726-3896e3881c65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'); /* Replace 'your-background-image-url.jpg' with your image URL */
+    background-size: cover; /* Adjust to your preference */
+    background-position: center center; /* Adjust to your preference */
+    background-repeat: no-repeat; /* Adjust to your preference */
+    text-align: center; /* Center the content within .cv */
+    color: white; /* Set text color to white for better visibility on the background */
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+
+}
+
+.cv {
+    text-align: center; /* Center the content within .cv */
+}
+
+.cv nav {
+    text-align: center; /* Center the navigation links horizontally */
+    background-color: #94939352; /* Background color for the navigation bar */
+    padding: 10px 0; /* Add padding to the top and bottom of the navigation bar */
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    transition: text-decoration 0.3s ease, background-color 0.3s ease, border-radius 0.3s ease; /* Add transitions for text-decoration, background-color, and border-radius */
+    padding: 5px 10px; /* Add padding to create space for the rounded corners */
+    border-radius: 5px; /* Set the initial border-radius */
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    background-color: #969696; /* Background color on hover */
+    border-radius: 5px; /* Adjust the border-radius for the hover state */
+}
+
+.cv h1{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-size: 3em;
+}
+
+.cv h2{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-size: 2em;
+}
+
+.cvbody{
+    width: 80%;
+    margin-bottom: 20px;
+    position: relative;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.section h2 {
+    padding-left: 20px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffffff; /* Blue color for section headers */
+    background: linear-gradient(to right, #007BFF, #007bff2c); /* Gradient background */
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0;
+
+}
+
+li {
+    margin-bottom: 8px;
+    color: #555; /* Dark gray color for list items */
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header-image {
+    text-align: center;
+    margin-bottom: 20px;
+  
+}
+
+.header-image img {
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    border-radius: 50%; /* Make the image a circle */
+    object-fit: cover; /* Ensure the image covers the entire circle */
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.education {
+    margin-bottom: 20px;
+}
+
+.education li {
+    margin-bottom: 10px;
+}
+
+.work-experience {
+    margin-bottom: 20px;
+}
+
+.work-experience li {
+    margin-bottom: 15px;
+}
+
+.skills {
+    margin-bottom: 20px;
+}
+
+.skills li {
+    margin-bottom: 5px;
+    color: #009688; /* Teal color for skills */
+}
+
+.job-title{
+    text-align: center;
+}
+
